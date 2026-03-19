@@ -24,10 +24,7 @@
     "presentations",
     "slides"
   ],
-  "author": {
-    "name": "Affaan Mustafa",
-    "url": "https://x.com/affaanmustafa"
-  },
+  "author": "Affaan Mustafa (https://x.com/affaanmustafa)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -120,5 +117,12 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "main": "commitlint.config.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "type": "commonjs"
 }
